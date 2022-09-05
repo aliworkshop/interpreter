@@ -1,0 +1,18 @@
+## export of this file
+
+* "file1: started"
+* "file1: wait for 1 sec"
+* "file2: started"
+* "file2: wait for 4 sec"
+* "file3: started"
+* "file3: wait for 5 sec"
+* "file1: wait for 2 sec"
+* "file2: wait for 3 sec"
+* "file3: wait for another 5 sec"
+* "file1: wait for 3 sec"
+* "file2: wait for 2 sec"
+* "file3: finished"
+* "file1: wait for 4 sec"
+* "file2: wait for 1 sec"
+* "file1: finished"
+* "file2: finished"

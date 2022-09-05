@@ -1,4 +1,4 @@
-module grpctest/interpreter2
+module interpreter2
 
 go 1.18
 

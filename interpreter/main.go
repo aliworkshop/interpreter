@@ -1,7 +1,7 @@
 package main
 
 import (
-	"grpctest/interpreter/domain"
+	"interpreter/domain"
 	"strconv"
 	"strings"
 	"time"

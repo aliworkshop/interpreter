@@ -18,7 +18,7 @@ type Parser interface {
 }
 
 type Runner interface {
-	ShoutPause() bool
+	ShouldPause() bool
 	Run()
 }
 
@@ -26,7 +26,7 @@ func (s Sleep) Run() {
 	time.Sleep(s.Time)
 }
 
-func (s Sleep) ShoutPause() bool {
+func (s Sleep) ShouldPause() bool {
 	return true
 }
 
@@ -34,6 +34,6 @@ func (p Print) Run() {
 	fmt.Println(p.Code)
 }
 
-func (p Print) ShoutPause() bool {
+func (p Print) ShouldPause() bool {
 	return false
 }
